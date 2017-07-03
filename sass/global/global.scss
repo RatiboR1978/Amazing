@@ -1,0 +1,22 @@
+body {
+  position: relative;
+  font-family: LatoBold, Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+  .clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
