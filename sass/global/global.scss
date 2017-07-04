@@ -1,13 +1,17 @@
 body {
   position: relative;
-  font-family: LatoBold, Arial, sans-serif;
+  font-family: Firasanslight, Arial, sans-serif;
 }
 
 a {
   text-decoration: none;
 }
 
-
+.container {
+  width: 1180px;
+  margin: 0 auto;
+  display: block;
+}
 
 img {
   max-width: 100%;

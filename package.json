@@ -1,24 +1,24 @@
 {
-  "name": "",
+  "name": "Amazing",
   "version": "0.1.0",
   "private": true,
   "description": "Личный проект Косьянова В.Г.",
   "author": "Виталий Косьянов",
   "repository": {
     "type": "git",
-    "url": "https://github.com/RatiboR1978/URLAUBSGL-CK.git"
+    "url": "https://github.com/RatiboR1978/Amazing"
   },
   "bugs": {
     "url": "https://github.com/RatiboR1978/issues"
   },
   "homepage": "https://github.com/RatiboR1978/",
   "devDependencies": {
-    "autoprefixer": "6.4.1",
-    "browser-sync": "2.15.0",
-    "gulp": "^3.9.1",
-    "gulp-plumber": "1.1.0",
-    "gulp-postcss": "6.2.0",
-    "gulp-sass": "^2.3.2"
+    "autoprefixer": "",
+    "browser-sync": "",
+    "gulp": "",
+    "gulp-plumber": "",
+    "gulp-postcss": "",
+    "gulp-sass": ""
   },
   "scripts": {
     "test": "editorconfig-cli",
