@@ -414,9 +414,8 @@ img {
   clear: both; }
 
 .page-header {
-  width: 100%;
   background: url(../img/slanted.jpg) no-repeat;
-  background-size: 100%;
+  background-size: cover;
   min-height: 900px;
   padding-top: 88px; }
 
