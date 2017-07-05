@@ -1,0 +1,29 @@
+.cable-car__wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.cable-car__img {
+  width: 25%;
+  min-height: 514px;
+}
+
+.cable-car__img1 {
+  background: url("../img/cable-car.jpg") no-repeat;
+  background-size: cover;
+}
+
+.cable-car__img2 {
+  background: url("../img/skier.jpg") no-repeat;
+  background-size: cover;
+}
+
+.cable-car__img3 {
+  background: url("../img/ski-boots.jpg") no-repeat;
+  background-size: cover;
+}
+
+.cable-car__img4 {
+  background: url("../img/mountains.jpg") no-repeat;
+  background-size: cover;
+}

@@ -408,6 +408,13 @@ img {
   max-width: 100%;
   height: auto; }
 
+h2 {
+  font-family: Firasansbold, Arial, sans-serif;
+  font-size: 24px; }
+
+p {
+  font-size: 36px; }
+
 .clearfix:after {
   content: "";
   display: table;
@@ -482,7 +489,7 @@ img {
   width: 50%;
   min-height: 542px;
   background: url(../img/helmet.jpg) no-repeat;
-  background-size: 100%; }
+  background-size: cover; }
 
 .helmet__faucibus {
   float: right;
@@ -490,12 +497,55 @@ img {
 
 .helmet__title {
   margin: 110px 0 35px 60px;
-  font-family: Firasansbold, Arial, sans-serif;
-  font-size: 24px;
   color: #666666; }
 
 .helmet__text {
   width: 500px;
-  font-size: 36px;
   margin: 0 0 0 60px;
   color: #666666; }
+
+.cable-car__wrap {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center; }
+
+.cable-car__img {
+  width: 25%;
+  min-height: 514px; }
+
+.cable-car__img1 {
+  background: url("../img/cable-car.jpg") no-repeat;
+  background-size: cover; }
+
+.cable-car__img2 {
+  background: url("../img/skier.jpg") no-repeat;
+  background-size: cover; }
+
+.cable-car__img3 {
+  background: url("../img/ski-boots.jpg") no-repeat;
+  background-size: cover; }
+
+.cable-car__img4 {
+  background: url("../img/mountains.jpg") no-repeat;
+  background-size: cover; }
+
+.ski {
+  background-color: #3f729b;
+  color: #f9f9f9; }
+
+.ski__wrap {
+  display: -webkit-box;
+  display: flex; }
+
+.ski__text {
+  width: 50%; }
+  .ski__text h2 {
+    margin: 0 0 35px;
+    padding-top: 122px; }
+
+.ski__img {
+  width: 40.3%;
+  min-height: 522px;
+  background: url("../img/ski.jpg") no-repeat;
+  background-size: cover; }

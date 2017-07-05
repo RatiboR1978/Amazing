@@ -1,0 +1,23 @@
+.ski {
+  background-color: #3f729b;
+  color: #f9f9f9;
+}
+
+.ski__wrap {
+  display: flex;
+}
+
+.ski__text {
+  width: 50%;
+  h2 {
+    margin: 0 0 35px;
+    padding-top: 122px;
+  }
+}
+
+.ski__img {
+  width: 40.3%;
+  min-height: 522px;
+  background: url("../img/ski.jpg") no-repeat;
+  background-size: cover;
+}
