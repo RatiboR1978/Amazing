@@ -640,3 +640,32 @@ p {
   width: 50%;
   min-height: 515px;
   background-color: #282b2f; }
+
+.spotyfu-itunes__wrap-left {
+  width: 500px;
+  float: right;
+  margin-top: 135px;
+  margin-right: 90px; }
+
+.spotyfu-itunes__wrap-right {
+  width: 500px;
+  margin-top: 153px;
+  margin-left: 90px; }
+
+.spotyfu-itunes__button {
+  height: 56px;
+  width: 254px;
+  border: 2px solid white;
+  background: none;
+  padding: 0 12px 0 12px;
+  border-radius: 30px;
+  color: white;
+  font-family: Firasansbold, Arial, sans-serif;
+  font-size: 18px;
+  cursor: pointer;
+  outline: none; }
+
+.footer-page {
+  width: 100%;
+  min-height: 600px;
+  background-color: #212227; }
