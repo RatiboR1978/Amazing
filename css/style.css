@@ -666,6 +666,132 @@ p {
   outline: none; }
 
 .footer-page {
+  padding-top: 100px;
   width: 100%;
   min-height: 600px;
-  background-color: #212227; }
+  background-color: #212227;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center; }
+
+.footer-page__amazing {
+  width: 279px; }
+
+.footer-page__contact {
+  width: 169px;
+  margin: 0 130px 0 120px; }
+
+.footer-page__subsribe {
+  width: 500px; }
+
+.footer-page__amazing-title1,
+.footer-page__amazing-title2,
+.footer-page__contact-title1,
+.footer-page__contact-title2,
+.footer-page__subsribe-title1,
+.footer-page__subsribe-title2 {
+  margin: 0;
+  color: white; }
+
+.footer-page__contact-title2 {
+  margin-bottom: 30px;
+  margin-top: 80px; }
+
+.footer-page__amazing-text,
+.footer-page__amazing-reserved,
+.footer-page__contact-adress,
+.footer-page__contact-phone,
+.footer-page__subsribe-text {
+  font-size: 14px;
+  color: #919191;
+  line-height: 21px; }
+
+.footer-page__subsribe-input {
+  background-color: #4d4e52;
+  border: none;
+  width: 420px;
+  height: 60px;
+  font-size: 14px;
+  padding: 0 0 0 20px;
+  color: #919191;
+  outline: none; }
+
+.footer-page__subsribe-submit {
+  display: none; }
+
+.footer-page__subsribe-btn {
+  display: block;
+  width: 60px;
+  height: 60px;
+  background-color: #4d4e52;
+  border: none;
+  outline: none;
+  font-size: 0;
+  position: relative;
+  cursor: pointer; }
+
+.footer-page__subsribe-btn::before {
+  position: absolute;
+  content: '';
+  width: 16px;
+  height: 17px;
+  background: url("../img/arrow-icon.png");
+  top: 23px;
+  left: 23px; }
+
+.footer-page__subsribe-form {
+  display: -webkit-box;
+  display: flex;
+  margin-bottom: 80px; }
+
+.footer-page__list {
+  padding: 0; }
+  .footer-page__list li {
+    font-family: Firasansbold, Arial, sans-serif;
+    margin: 10px 0 0 26px;
+    list-style-type: none; }
+    .footer-page__list li a {
+      color: #919191; }
+
+.footer-page__f,
+.footer-page__t,
+.footer-page__i,
+.footer-page__s {
+  position: relative; }
+
+.footer-page__f::before {
+  position: absolute;
+  content: '';
+  width: 24px;
+  height: 24px;
+  background: url("../img/f-icon.jpg");
+  top: -2px;
+  left: -30px; }
+
+.footer-page__t::before {
+  position: absolute;
+  content: '';
+  width: 21px;
+  height: 21px;
+  background: url("../img/t-icon.jpg");
+  top: -2px;
+  left: -30px; }
+
+.footer-page__i::before {
+  position: absolute;
+  content: '';
+  width: 23px;
+  height: 23px;
+  background: url("../img/i-icon.jpg");
+  top: -2px;
+  left: -30px; }
+
+.footer-page__s::before {
+  position: absolute;
+  content: '';
+  width: 21px;
+  height: 21px;
+  background: url("../img/s-icon.jpg");
+  top: -2px;
+  left: -30px; }
