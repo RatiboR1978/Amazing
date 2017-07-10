@@ -470,7 +470,8 @@ p {
   font-family: Firasanshair, Arial, sans-serif;
   font-size: 12px;
   margin-top: 30px;
-  text-align: center; }
+  text-align: center;
+  list-style-type: none; }
 
 .page-header__text h1 {
   font-size: 72px;
